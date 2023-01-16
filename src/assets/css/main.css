@@ -1,0 +1,15 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #82aae3;
+  --secondary: #91d8e4;
+  --terciary: #e191a7;
+}
+
+.page {
+  margin: 0 auto;
+}

@@ -1,0 +1,52 @@
+.hero {
+  height: calc(100vh - 96px);
+  position: relative;
+  opacity: 90%;
+  margin-top: 96px;
+}
+
+.hero-text-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-text-header {
+  color: #000000;
+  font-size: 4.5rem;
+  font-family: "Inconsolata", monospace;
+  text-decoration: underline;
+}
+
+.hero-text {
+  color: #000000;
+  font-size: 2rem;
+  font-family: "Inconsolata", monospace;
+  margin-bottom: 6rem;
+}
+
+.hero-button {
+  background-color: #82aae3;
+  border: 0;
+  height: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 6px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 1s;
+  margin-top: 4rem;
+}
+
+.hero-button:hover {
+  transition: 1s;
+  background-color: #39b5e0;
+}

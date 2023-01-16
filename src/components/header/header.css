@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  height: 6rem;
+  margin: 0rem;
+  padding: 0rem;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+}
+
+.header-center {
+  width: 90vw;
+  max-width: 1120px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.header-text {
+  color: #000000;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-links {
+  display: flex;
+}

@@ -1,0 +1,15 @@
+.header-button {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  gap: 10px;
+}
+
+.header-button-image {
+  height: 44px;
+  width: 44px;
+}

@@ -1,0 +1,97 @@
+.about {
+  background-color: #f2f2ed;
+  height: calc(100vh - 96px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-header {
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.about-header-bottom-line {
+  height: 4px;
+  width: 3rem;
+  background-color: #82aae3;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.about-text {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: #404258;
+  margin-bottom: 1rem;
+}
+
+.about-text-bottom-line {
+  height: 2px;
+  width: 60%;
+  background-color: lightgray;
+  border-radius: 1px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 70%;
+}
+
+.about-experience {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-skills {
+  height: 100%;
+  width: 50%;
+}
+
+.about-info-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+}
+
+.about-info-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.about-skills-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.about-skills-box {
+  height: 3rem;
+  padding-left: 1rem;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 6px;
+  color: lightslategray;
+}
