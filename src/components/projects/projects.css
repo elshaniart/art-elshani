@@ -1,9 +1,7 @@
 .projects {
+  @apply flex justify-center flex-col;
   background-color: #e5e8e2;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 .projects-gap {
@@ -36,7 +34,7 @@
 }
 
 .projects-container {
-  width: 70%;
+  @apply w-11/12 2xl:w-8/12;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,22 +45,21 @@
   height: 300px;
   width: 500px;
   border-radius: 1rem;
-  box-shadow: 10px 20px 15px;
+  box-shadow: 5px 10px 5px;
 }
 
 .project-container {
-  display: flex;
-  width: 100%;
+  @apply flex w-full flex-col lg:flex-row;
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
 .projects-image-container {
-  width: 50%;
+  @apply w-full lg:w-1/2 flex justify-center mb-10 lg:mb-0;
 }
 
 .projects-text-container {
-  width: 50%;
+  @apply w-full px-16 md:px-32 lg:px-0 lg:w-1/2 flex flex-col lg:block;
 }
 
 .project-header {
@@ -80,10 +77,12 @@
 .project-button {
   background-color: #82aae3;
   border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
   border-radius: 6px;
   color: white;
   font-family: "Montserrat", sans-serif;
