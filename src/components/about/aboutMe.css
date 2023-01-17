@@ -1,6 +1,6 @@
 .about {
   background-color: #f2f2ed;
-  height: calc(100vh - 192px);
+  height: calc(100vh - 96px);
   display: flex;
   justify-content: center;
   align-items: center;
