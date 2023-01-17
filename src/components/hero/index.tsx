@@ -14,13 +14,15 @@ const HeroBanner = React.forwardRef<HTMLDivElement | null>((props, ref) => {
           layout="fullWidth"
           className="hero"
         />
-        <div className="hero-text-container">
-          <h1 className="hero-text-header">HEY, I'M ART ELSHANI</h1>
-          <p className="hero-text">
-            A Fullstack Web Developer specializing in the React.js Framework
-          </p>
-          {/* learn more will open my resume */}
-          <button className="hero-button">Learn More</button>
+        <div className="w-full flex justify-center">
+          <div className="hero-text-container">
+            <h1 className="hero-text-header">HEY, I'M ART ELSHANI</h1>
+            <p className="hero-text">
+              A Fullstack Web Developer specializing in the React.js Framework
+            </p>
+            {/* learn more will open my resume */}
+            <button className="hero-button">Learn More</button>
+          </div>
         </div>
       </div>
     </>
