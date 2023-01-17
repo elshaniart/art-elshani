@@ -15,9 +15,9 @@
 }
 
 .contact-form {
+  @apply w-9/12 md:w-1/2;
   background-color: #e5e8e2;
   height: 70%;
-  width: 50%;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
