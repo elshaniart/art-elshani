@@ -5,3 +5,10 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.menu-button {
+  @apply h-12 my-4 border-b-2 mx-4 sticky top-24;
+  color: #000000;
+  font-size: 1.75rem;
+  font-family: "Montserrat", sans-serif;
+}

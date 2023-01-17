@@ -9,9 +9,8 @@
 }
 
 .contact-gap {
+  @apply w-full h-16 md:h-24;
   background-color: #f2f2ed;
-  height: 96px;
-  width: 100%;
 }
 
 .contact-form {

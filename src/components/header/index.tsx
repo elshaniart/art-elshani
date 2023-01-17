@@ -1,13 +1,15 @@
 import React from "react";
 import HeaderHomeButton from "../buttons/header/home";
 import HeaderTextButton from "../buttons/header/text";
+import { GiHamburgerMenu } from "react-icons/gi";
 import "./header.css";
 
 type Props = {
   scrollFunction: (location: string) => void;
+  handleClick: () => void;
 };
 
-const Header = ({ scrollFunction }: Props) => {
+const Header = ({ scrollFunction, handleClick }: Props) => {
   return (
     <nav className="header">
       <div className="header-center">
@@ -27,6 +29,9 @@ const Header = ({ scrollFunction }: Props) => {
           onClick={() => scrollFunction("contact")}
         />
       </div>
+      <button className="header-burger" onClick={handleClick}>
+        <GiHamburgerMenu className="h-10 w-10 rounded-full p-1.5 bg-gray-50" />
+      </button>
     </nav>
   );
 };

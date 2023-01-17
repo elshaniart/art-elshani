@@ -5,9 +5,8 @@
 }
 
 .projects-gap {
+  @apply w-full h-16 md:h-24;
   background-color: #e5e8e2;
-  height: 96px;
-  width: 100%;
 }
 
 .projects-header {

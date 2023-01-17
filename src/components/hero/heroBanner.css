@@ -5,8 +5,7 @@
 }
 
 .hero-gap {
-  width: 100%;
-  height: 96px;
+  @apply w-full h-16 md:h-24;
 }
 
 .hero-text-container {
