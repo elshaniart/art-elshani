@@ -3,18 +3,30 @@ import HeaderHomeButton from "../buttons/header/home";
 import HeaderTextButton from "../buttons/header/text";
 import "./header.css";
 
-const Header = () => {
+type Props = {
+  scrollFunction: (location: string) => void;
+};
+
+const Header = ({ scrollFunction }: Props) => {
   return (
     <nav className="header">
       <div className="header-center">
-        <HeaderHomeButton />
+        <HeaderHomeButton onClick={() => scrollFunction("hero")} />
       </div>
       <div className="header-links">
-        <HeaderTextButton text="about" />
-        <HeaderTextButton text="projects" />
-        <HeaderTextButton text="contact" />
+        <HeaderTextButton
+          text="about"
+          onClick={() => scrollFunction("about")}
+        />
+        <HeaderTextButton
+          text="projects"
+          onClick={() => scrollFunction("projects")}
+        />
+        <HeaderTextButton
+          text="contact"
+          onClick={() => scrollFunction("contact")}
+        />
       </div>
-      {/* home button */}
     </nav>
   );
 };

@@ -6,10 +6,17 @@
   flex-direction: column;
 }
 
+.projects-gap {
+  background-color: #e5e8e2;
+  height: 96px;
+  width: 100%;
+}
+
 .projects-header {
   font-size: 3rem;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 0.5rem;
+  margin-top: 0px;
 }
 
 .projects-header-bottom-line {

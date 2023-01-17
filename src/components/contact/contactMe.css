@@ -1,11 +1,17 @@
 .contact-me {
   background-color: #f2f2ed;
-  height: calc(100vh - 96px);
+  height: calc(100vh);
   margin-top: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.contact-gap {
+  background-color: #f2f2ed;
+  height: 96px;
+  width: 100%;
 }
 
 .contact-form {

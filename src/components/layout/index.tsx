@@ -5,12 +5,13 @@ import "./layout.css";
 
 type Props = {
   children?: JSX.Element;
+  scrollFunction: (location: string) => void;
 };
 
-const Layout = ({ children }: Props) => {
+const Layout = ({ children, scrollFunction }: Props) => {
   return (
     <>
-      <Header />
+      <Header scrollFunction={scrollFunction} />
       {children}
       <Footer />
     </>

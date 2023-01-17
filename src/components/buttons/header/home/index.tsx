@@ -1,14 +1,17 @@
 import React from "react";
-import { Link } from "gatsby";
 import "./headerHomeButton.css";
 import favicon from "../../../../assets/images/favicon.ico";
 
-const HeaderHomeButton = () => {
+type Props = {
+  onClick: (location) => void;
+};
+
+const HeaderHomeButton = ({ onClick }: Props) => {
   return (
-    <Link to="/" className="header-button">
+    <button className="header-button" onClick={onClick}>
       <img src={favicon} alt="logo" className="header-button-image" />
       <p>ART ELSHANI</p>
-    </Link>
+    </button>
   );
 };
 

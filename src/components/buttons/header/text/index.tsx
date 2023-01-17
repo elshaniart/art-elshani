@@ -3,10 +3,15 @@ import "./headerTextButton.css";
 
 type Props = {
   text?: string;
+  onClick: () => void;
 };
 
-const HeaderTextButton = ({ text }: Props) => {
-  return <p className="header-text-button">{text}</p>;
+const HeaderTextButton = ({ text, onClick }: Props) => {
+  return (
+    <button className="header-text-button" onClick={onClick}>
+      {text}
+    </button>
+  );
 };
 
 export default HeaderTextButton;
