@@ -10,7 +10,7 @@ const AboutMe = React.forwardRef<HTMLDivElement | null>((props, ref) => {
         <div className="about-header-bottom-line"></div>
         <p className="about-text">
           Here you will find information about my work experience, as well as my
-          skills in terms of programming and tech
+          skills in terms of programming
         </p>
         <div className="about-text-bottom-line"></div>
 
@@ -43,6 +43,7 @@ const AboutMe = React.forwardRef<HTMLDivElement | null>((props, ref) => {
               </p>
             </div>
           </div>
+          <div className="h-0.5 w-full bg-gray-500 flex md:hidden my-2"></div>
           <div className="about-skills">
             <h2 className="about-info-header">My Skills</h2>
             <div className="about-skills-container">
