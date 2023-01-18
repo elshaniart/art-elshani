@@ -5,6 +5,7 @@ import HeroBanner from "../components/hero";
 import Layout from "../components/layout";
 import Projects from "../components/projects";
 import { graphql, useStaticQuery } from "gatsby";
+import SEO from "../components/SEO";
 
 const query = graphql`
   query {
@@ -91,6 +92,7 @@ export default function Home() {
 
   return (
     <Layout scrollFunction={scrollControl}>
+      <SEO />
       <main>
         <HeroBanner ref={heroRef} />
         <AboutMe ref={aboutRef} />
