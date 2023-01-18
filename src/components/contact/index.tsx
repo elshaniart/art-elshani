@@ -8,13 +8,18 @@ const ContactMe = React.forwardRef<HTMLDivElement | null>((props, ref) => {
       <div className="contact-me">
         <h1 className="contact-header">CONTACT</h1>
         <div className="contact-header-bottom-line"></div>
-        <div className="contact-form">
+        <form
+          className="contact-form"
+          action="https://formspree.io/f/xzbqzvkj"
+          method="POST"
+        >
           <div className="form-row">
             <label htmlFor="name">Your Name</label>
             <input
               type="text"
               className="contact-me-input"
               id="name"
+              name="name"
               placeholder="Enter your Name"
             />
           </div>
@@ -24,6 +29,7 @@ const ContactMe = React.forwardRef<HTMLDivElement | null>((props, ref) => {
               type="text"
               className="contact-me-input"
               id="email"
+              name="email"
               placeholder="Enter your Email"
             />
           </div>
@@ -36,8 +42,10 @@ const ContactMe = React.forwardRef<HTMLDivElement | null>((props, ref) => {
               placeholder="Leave a Message!"
             />
           </div>
-          <button className="form-button">Submit</button>
-        </div>
+          <button type="submit" className="form-button">
+            Submit
+          </button>
+        </form>
       </div>
     </>
   );

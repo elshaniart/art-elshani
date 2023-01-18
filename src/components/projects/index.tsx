@@ -18,7 +18,7 @@ const Projects = React.forwardRef<HTMLDivElement | null>((props, ref) => {
           <div className="project-container">
             <div className="projects-image-container">
               <StaticImage
-                src={"../../assets/images/tauto.png"}
+                src={"../../assets/images/tauto.PNG"}
                 alt="tauto page"
                 className={"projects-image"}
               />
@@ -39,7 +39,7 @@ const Projects = React.forwardRef<HTMLDivElement | null>((props, ref) => {
           <div className="project-container">
             <div className="projects-image-container">
               <StaticImage
-                src={"../../assets/images/simply-recipes.png"}
+                src={"../../assets/images/simply-recipes.PNG"}
                 alt="tauto page"
                 className={"projects-image"}
               />
@@ -63,7 +63,7 @@ const Projects = React.forwardRef<HTMLDivElement | null>((props, ref) => {
           <div className="project-container">
             <div className="projects-image-container">
               <StaticImage
-                src={"../../assets/images/amazon-clone.png"}
+                src={"../../assets/images/amazon-clone.PNG"}
                 alt="tauto page"
                 className={"projects-image"}
               />
