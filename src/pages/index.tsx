@@ -92,9 +92,12 @@ export default function Home() {
 
   return (
     <Layout scrollFunction={scrollControl}>
-      <SEO />
       <main>
-        <HeroBanner ref={heroRef} />
+        <SEO />
+        <HeroBanner
+          ref={heroRef}
+          scrollFunction={() => scrollControl("about")}
+        />
         <AboutMe ref={aboutRef} />
         <Projects ref={projectsRef} projectData={projectData} />
         <ContactMe ref={contactRef} />
