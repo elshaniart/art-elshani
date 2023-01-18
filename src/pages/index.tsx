@@ -31,7 +31,6 @@ export default function Home() {
   const {
     allFile: { nodes: images },
   } = useStaticQuery(query);
-  console.log({ images });
 
   const projectData: Array<object> = [];
 
@@ -48,7 +47,6 @@ export default function Home() {
     project.childImageSharp = image.childImageSharp;
     switch (image.name) {
       case "amazon-clone":
-        console.log("here");
         project.title = "Amazon Clone";
         project.text =
           "This is an Amazon front page clone which I made using React, styled with Tailwind. The data displayed on the app is fetched from the fake store API. I created this app in order to strengthen my understanding of fetching data from an API.";

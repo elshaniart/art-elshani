@@ -21,6 +21,7 @@ const ContactMe = React.forwardRef<HTMLDivElement | null>((props, ref) => {
               id="name"
               name="name"
               placeholder="Enter your Name"
+              required
             />
           </div>
           <div className="form-row">
@@ -30,6 +31,7 @@ const ContactMe = React.forwardRef<HTMLDivElement | null>((props, ref) => {
               className="contact-me-input"
               id="email"
               name="email"
+              required
               placeholder="Enter your Email"
             />
           </div>
