@@ -26,7 +26,7 @@ const AboutMe = React.forwardRef<HTMLDivElement | null>((props, ref) => {
                 Technologies used:{" "}
                 <strong>
                   Javascript, HTML, CSS, React.js, React-Native, ASP.NET, SQL,
-                  C#, Springboot, Java, Tailwind
+                  C#, Springboot, Java, Tailwind, TypeScript
                 </strong>
               </p>
             </div>
@@ -39,7 +39,9 @@ const AboutMe = React.forwardRef<HTMLDivElement | null>((props, ref) => {
               <p className="about-info-text">March 2022 - Present</p>
               <p className="about-info-text">
                 Technologies used:{" "}
-                <strong>Javascript, HTML, CSS, React.js, Tailwind</strong>
+                <strong>
+                  Javascript, HTML, CSS, React.js, Tailwind, TypeScript
+                </strong>
               </p>
             </div>
           </div>

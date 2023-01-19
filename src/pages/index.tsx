@@ -11,6 +11,7 @@ const query = graphql`
   query {
     allFile(
       filter: { name: { in: ["amazon-clone", "simply-recipes", "tauto"] } }
+      sort: { name: DESC }
     ) {
       nodes {
         name
