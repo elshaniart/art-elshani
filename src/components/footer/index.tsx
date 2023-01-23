@@ -16,16 +16,19 @@ const Footer = () => {
           <div>
             <h2 className="footer-header">Socials</h2>
             <div className="footer-icons-container">
-              <a href="https://www.linkedin.com/in/art-elshani-5aa99618a/">
+              <a
+                href="https://www.linkedin.com/in/art-elshani-5aa99618a/"
+                target={"_blank"}
+              >
                 <FaLinkedin color="white" className="footer-icon" />
               </a>
-              <a href="https://github.com/elshaniart">
+              <a href="https://github.com/elshaniart" target={"_blank"}>
                 <FaGithub color="white" className="footer-icon" />
               </a>
-              <a href="https://www.instagram.com/elshaniart/">
+              <a href="https://www.instagram.com/elshaniart/" target={"_blank"}>
                 <FaInstagram color="white" className="footer-icon" />
               </a>
-              <a href="https://twitter.com/elshaniart01">
+              <a href="https://twitter.com/elshaniart01" target={"_blank"}>
                 <FaTwitter color="white" className="footer-icon" />
               </a>
             </div>

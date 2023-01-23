@@ -42,7 +42,7 @@ const Projects = React.forwardRef<HTMLDivElement | null, ProjectsProps>(
                   <div className="projects-text-container">
                     <h2 className="project-header">{title}</h2>
                     <p className="project-text">{text}</p>
-                    <a href={url} className="project-button">
+                    <a href={url} className="project-button" target={"_blank"}>
                       Visit Site
                     </a>
                   </div>
