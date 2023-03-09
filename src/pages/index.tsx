@@ -7,6 +7,13 @@ import Projects from "../components/projects";
 import { graphql, useStaticQuery } from "gatsby";
 import SEO from "../components/SEO";
 
+/*
+  IMPORTANT:
+  1. IMPORVE APPLICATION MOBILE RESPONSIVENESS, COME UP WITH NEW COOL DESIGN WITH ANIMATIONS AND SHIT
+  2. TRY TO FIX THE BUG ON THIS FILE :)
+  3. MAKE LEARN MORE BUTTON POINT TO A PDF FILE WITH MY CV ON IT
+  */
+
 const query = graphql`
   query {
     allFile(
@@ -95,7 +102,7 @@ export default function Home() {
         <SEO />
         <HeroBanner
           ref={heroRef}
-          scrollFunction={() => scrollControl("about")}
+          scrollFunction={() => window.open("https://artelshani.com/resume")}
         />
         <AboutMe ref={aboutRef} />
         <Projects ref={projectsRef} projectData={projectData} />
